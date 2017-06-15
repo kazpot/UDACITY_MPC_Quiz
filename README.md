@@ -33,5 +33,7 @@ you'll have to install Ipopt and CppAD.
   * Windows: TODO. If you can use the Linux subsystem and follow the Linux instructions.
 
 ## Alternative way to build
-g++ -o polyfit main.cpp -std=c++11
-g++ -o kinematic main.cpp -std=c++11
+
+* g++ -o polyfit main.cpp -std=c++11
+* g++ -o kinematic main.cpp -std=c++11
+* g++ -o mpctoline MPC.cpp MPC.h matplotlibcpp.h -I/c/Python27/include -std=c++11
